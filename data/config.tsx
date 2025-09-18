@@ -5,7 +5,7 @@ import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
-  // logo: Logo,
+  logo: Logo,
   seo: {
     title: '9Connect',
     description:
@@ -26,10 +26,6 @@ const siteConfig = {
       {
         id: 'faq',
         label: 'FAQ',
-      },
-      {
-        label: 'Login',
-        href: '/login',
       },
       {
         label: 'Sign Up',

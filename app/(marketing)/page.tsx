@@ -8,7 +8,6 @@ import {
   HStack,
   Heading,
   Icon,
-  IconButton,
   Stack,
   Tag,
   Text,
@@ -16,12 +15,11 @@ import {
   Wrap,
 } from '@chakra-ui/react'
 import { Br, Link } from '@saas-ui/react'
-import type { Metadata, NextPage } from 'next'
+import type { NextPage } from 'next'
 import Image from 'next/image'
 import {
   FiArrowRight,
   FiBox,
-  FiCheck,
   FiCode,
   FiFlag,
   FiGrid,
@@ -56,12 +54,6 @@ import { Em } from '#components/typography'
 import faq from '#data/faq'
 import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
-
-export const meta: Metadata = {
-  title: '9Connect Landing Page',
-  description:
-    '9Connect is the operations hub for multi-channel sellers. Connect Amazon & TikTok Shop to manage products, orders, fulfillment, finance, and support from one place.',
-}
 
 const Home: NextPage = () => {
   return (
@@ -405,4 +397,3 @@ const FaqSection = () => {
 }
 
 export default Home;
-        
